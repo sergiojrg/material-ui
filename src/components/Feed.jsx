@@ -1,14 +1,16 @@
 import React from 'react'
-import { Box } from '@mui/material'
+import { Avatar, Box, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from '@mui/material'
+import { FavoriteBorder,BookmarkBorderIcon, Share, MoreVert, FavoriteBorderOutlined, Favorite } from '@mui/icons-material'
+
+import Post from './Post'
 
 const Feed = () => {
   return (
     <Box
-      bgcolor="pink"
       flex={4}
-      p={2}
+      p={1}
     >
-      Feed
+      <Post/>
     </Box>
   )
 }
